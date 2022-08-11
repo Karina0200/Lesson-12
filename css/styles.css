@@ -1,0 +1,273 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-Regular.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-Regular.woff2") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-Regular.woff2") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-Regular.woff2") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-Regular.woff2") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  font-family: "Gilroy", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+  text-transform: none;
+}
+
+.header-section {
+  padding-top: 35px;
+  padding-bottom: 45px;
+}
+
+.location {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-marg {
+  margin-bottom: 60px;
+}
+
+.logo {
+  width: 244px;
+  height: 45px;
+}
+
+.telephone {
+  margin-right: 60px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.telephone-img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.size {
+  padding-top: 9px;
+  display: flex;
+  flex-direction: row;
+}
+
+.buy {
+  width: 35px;
+  height: 35px;
+  margin-right: 15px;
+}
+
+.buy-img-perents {
+  position: relative;
+}
+
+.buy-img {
+  width: 25px;
+  height: 25px;
+}
+
+.buy-img-number {
+  width: 20px;
+  height: 20px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  background-color: #06D10E;
+  border-radius: 50%;
+  padding: 3px 7px;
+  position: absolute;
+  bottom: 25%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+}
+
+.account-img {
+  width: 25px;
+  height: 25px;
+}
+
+.link-nav {
+  padding-top: 15px;
+}
+
+.link-nav a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #4F4F4F;
+  margin-right: 40px;
+}
+
+.buttom-search {
+  width: 345px;
+  height: 54px;
+  background-color: #F2F2F2;
+  border: 1px solid #BDBDBD;
+  border-radius: 10px;
+}
+
+.buttom-search-input {
+  border: none;
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #828282;
+  margin-left: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.buttom-search-input:active, :hover, :focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+.buttom-search-style {
+  border: none;
+  background-color: transparent;
+}
+
+.main-color {
+  background-color: #E5E5E5;
+  padding-top: 75px;
+  padding-bottom: 100px;
+}
+
+.main-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #BDBDBD;
+}
+
+.main-catalog {
+  margin-right: 15px;
+}
+
+.main-mix {
+  background-image: url(../img/dot.svg);
+  background-repeat: no-repeat;
+  padding-left: 20px;
+  background-position: left;
+}
+
+.main-marg {
+  margin-bottom: 30px;
+}
+
+.back {
+  display: block;
+  background-image: url(../img/back.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  font-weight: 500;
+  padding-left: 22px;
+  font-size: 20px;
+  line-height: 24px;
+  color: #333333;
+  margin-bottom: 45px;
+}
+
+/* cards */
+.cards-size {
+  width: 315px;
+  height: 566px;
+  background-color: #E5E5E5;
+  border: 1px solid #E5E5E6;
+  box-shadow: -8px -8px 15px #FFFFFF, 8px 8px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  padding: 20px 20px 40px 20px;
+}
+
+.img-birds {
+  background-color: #F9F9F9;
+  border: 1px solid #F2F2F2;
+  border-radius: 5px;
+  width: 275px;
+  height: 227px;
+  background-image: url(../img/mixfood.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 25px;
+}
+
+.cards-name {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 130%;
+  color: #333333;
+}
+
+.cards-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #828282;
+  margin-bottom: 25px;
+}
+
+.cards-cash {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #333333;
+  margin-bottom: 25px;
+}
+
+.gramm-input {
+  display: none;
+}
+
+.gramm-label {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #4F4F4F;
+}
+
+.gramm-input:checked {
+  border: 1px solid #3ECF5E;
+  border-radius: 5px;
+}

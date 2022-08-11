@@ -1,0 +1,118 @@
+.header-section {
+    padding-top: 35px;
+    padding-bottom: 45px;
+}
+
+.location {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-marg {
+    margin-bottom: 60px;
+}
+
+.logo {
+    width: 244px;
+    height: 45px;
+}
+
+.telephone {
+ 
+    margin-right: 60px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.telephone-img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.size {
+    padding-top: 9px;
+    display: flex;
+    flex-direction: row;
+}
+
+.buy {
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+}
+
+.buy-img-perents {
+    
+    position: relative;
+
+}
+
+.buy-img {
+    width: 25px;
+    height: 25px;
+}
+
+.buy-img-number {
+    width: 20px;
+    height: 20px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    background-color: #06D10E; border-radius: 50%;
+    padding: 3px 7px;
+    position: absolute;
+    bottom: 25%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+
+.account-img {
+    width: 25px;
+    height: 25px;
+}
+
+.link-nav {
+    padding-top: 15px;
+} 
+
+.link-nav a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #4F4F4F;
+    margin-right: 40px;
+}
+
+.buttom-search {
+    width: 345px;
+    height: 54px;
+    background-color: #F2F2F2;
+    border: 1px solid #BDBDBD;
+    border-radius: 10px;
+}
+
+.buttom-search-input {
+    border: none;
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #828282;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.buttom-search-input:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.buttom-search-style {
+    border: none;
+    background-color: transparent;
+}

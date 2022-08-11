@@ -1,0 +1,108 @@
+.main-color {
+    background-color: #E5E5E5;
+    padding-top: 75px;
+    padding-bottom: 100px;
+}
+
+.main-text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #BDBDBD;
+}
+
+.main-catalog {
+    margin-right: 15px;
+}
+
+.main-mix {
+    background-image: url(../img/dot.svg);
+    background-repeat: no-repeat;
+   padding-left: 20px;
+    background-position: left;
+}
+
+.main-marg {
+    margin-bottom: 30px;
+}
+
+.back {
+    display: block;
+    background-image: url(../img/back.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    font-weight: 500;
+    padding-left: 22px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333333;
+    margin-bottom: 45px;
+}
+
+/* cards */
+
+.cards-size{
+width: 315px;
+height: 566px;
+background-color: #E5E5E5;
+border: 1px solid #E5E5E6;
+box-shadow: -8px -8px 15px #FFFFFF, 8px 8px 15px rgba(0, 0, 0, 0.05);
+border-radius: 20px;
+padding: 20px 20px 40px 20px;
+}
+
+.img-birds {
+    background-color: #F9F9F9;
+    border: 1px solid #F2F2F2;
+    border-radius: 5px;
+    width: 275px;
+    height: 227px;
+    background-image: url(../img/mixfood.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 25px;
+}
+
+.cards-name {
+font-weight: 600;
+font-size: 24px;
+line-height: 130%;
+color: #333333;
+
+}
+
+.cards-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #828282;
+    margin-bottom: 25px;
+}
+
+.cards-cash {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #333333;
+    margin-bottom: 25px;
+}
+
+.gramm {
+    margin-bottom: 60px;
+}
+
+.gramm-input {
+ display: none;
+}
+
+.gramm-label {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #4F4F4F;
+}
+
+.gramm-input:checked {
+    border: 1px solid #3ECF5E;
+    border-radius: 5px;
+}
